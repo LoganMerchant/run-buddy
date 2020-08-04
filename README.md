@@ -13,4 +13,4 @@ https://loganmerchant.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Logan Merchant
 
-### &copy 2019 Run Buddy, Inc.
+### (c)2019 Run Buddy, Inc.
