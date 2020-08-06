@@ -293,7 +293,7 @@ footer a {
     grid-template-columns: 1fr repeat(2, 4fr);
     grid-template-rows: repeat(5, 1fr) 2fr;
     background: lightyellow;
-    width: 80%;
+    width: 81%;
     border: 2px solid #024e76;
     color: #024e76;
     font-size: 1.2rem;
@@ -309,10 +309,23 @@ footer a {
 }
 
 .service-grid-item.basic {
-    grid-column: 2 / span 1;
+    grid-column: 2 / 3;
 }
 
-.service-grid-item.both {}
+.service-grid-item.both {
+    grid-column: 2 / 4;
+}
+
+.service-grid-item.cancel {
+    grid-row: 1 / -1;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.grid-head, .grid-price, .service-grid-item.cancel {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 
 /* Reach Out */
 .contact{
